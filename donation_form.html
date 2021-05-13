@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Donation (Backup 1620733106342) (Backup 1620816222284)</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/ensign-form-1.css">
+    <link rel="stylesheet" href="assets/css/ensign-form.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Form-1.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Form.css">
+</head>
+
+<body style="background: url(&quot;assets/img/intro-bg.jpg&quot;);">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand" data-bss-hover-animate="pulse" href="index.html">Smile Foundation</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-link"><a class="nav-link" data-bss-hover-animate="pulse" href="index.html#$about">About</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link" data-bss-hover-animate="pulse" href="index.html#download">Donate now!</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link" data-bss-hover-animate="pulse" href="index.html#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div>
+            <form  action="payout.php" method="post" style="padding: 25px;">
+                <div class="form-group mb-3" style="margin-top: 150px;margin-bottom: 50px;">
+                    <div id="formdiv" style="margin-bottom: 20px;">
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Name </strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="text" style="margin-left:0px;font-family:Roboto, sans-serif;" id="fname" name="name" placeholder="Name" required></div>
+                        </div>
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>E-mail Address</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="email" style="margin-left:0px;font-family:Roboto, sans-serif;" id="email" name="email" placeholder="john123@example.com" required></div>
+                        </div>
+                        <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="orderid">
+                        <input type="hidden" value="<?php echo 1;?>" name="amount">
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Mobile Number</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="text" style="margin-left:0px;font-family:Roboto, sans-serif;" id="city" name="mobile" placeholder="mobile"></div>
+                        </div>
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Amount</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="number" style="font-family:Roboto, sans-serif;" placeholder="Amount" name="amount"></div>
+                        </div>
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-12 col-md-4 offset-md-4"><button class="btn btn-light btn-lg" data-bss-hover-animate="pulse" style="font-family:Roboto, sans-serif;" type="reset">Clear </button><button class="btn btn-light btn-lg" data-bss-hover-animate="pulse" style="margin-left:16px;" type="submit">Submit </button></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Our work</h3>
+                    <ul>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Livelihood</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Campaigns</h3>
+                    <ul>
+                        <li><a href="#">India Shares</a></li>
+                        <li><a href="#">Shiksha Na Rukke</a></li>
+                        <li><a href="#">Plate Half-Full</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Smile foundation</h3>
+                    <p>Smile Foundation is an NGO in India directly benefitting over 15,00,000 children and their families every year, through more than 400 live welfare projects on education, healthcare, livelihood and women empowerment, in over 2000 remote villages and slums across 25 states of India.</p>
+                </div>
+            </div>
+            <p data-bss-hover-animate="bounce" class="copyright"><strong>Made By Chandan&nbsp; Giri © 2021</strong></p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+</body>
+
+</html>
