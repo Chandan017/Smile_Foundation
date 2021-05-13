@@ -2,7 +2,7 @@
 
 Deployment Link: https://chandan-giri017.000webhostapp.com/
 
-This is a website made possible by using html,css,javascirpt,php and bootstrap 5.0 . In this website payment gateway of razorpay is integrated in test mode for donation of user fixed amount . When transaction gets successfull user will be redirected to payment success page and if payment gots failed then there will be a prompt to retry payment . This project is made under internship program of The Sparks Foundation . Screensots of webpage is attached below :
+This is a  responsive website made possible by using html,css,javascirpt,php and bootstrap 5.0 . In this website payment gateway of razorpay is integrated in test mode for donation of user fixed amount . When transaction gets successfull user will be redirected to payment success page and if payment gots failed then there will be a prompt to retry payment . This project is made under internship program of The Sparks Foundation . Screensots of webpage is attached below :
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/52875808/118110395-fa29ae00-b3ff-11eb-8057-89008988a8be.png)
 
@@ -21,4 +21,6 @@ This is a website made possible by using html,css,javascirpt,php and bootstrap 5
 ![Screenshot (8)](https://user-images.githubusercontent.com/52875808/118110422-ff86f880-b3ff-11eb-8e23-c71d2cca43b0.png)
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/52875808/118110426-001f8f00-b400-11eb-9925-d0fef5bdfe91.png)
+
+This is the complete working of this website .
  
