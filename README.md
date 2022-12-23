@@ -1,6 +1,6 @@
 # Smile_Foundation (NGO DONATION WEBSITE) 
 
-Deployment Link: https://chandan-giri017.000webhostapp.com/
+Deployment Link: https://email-jammer017.000webhostapp.com/
 
 This is a  responsive website made possible by using html,css,javascirpt,php and bootstrap 5.0 . In this website payment gateway of razorpay is integrated in test mode for donation of user fixed amount . When transaction gets successfull user will be redirected to payment success page and if payment gots failed then there will be a prompt to retry payment . This project is made under internship program of The Sparks Foundation . Screensots of webpage is attached below :
 
